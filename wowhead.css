@@ -1,0 +1,15 @@
+#wowhead {
+  color: #ffd100;
+  float: right;
+  font-size: 12px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#wowhead:hover {
+  color: white;
+}
+
+#wowhead img {
+  vertical-align: middle;
+}

@@ -1,0 +1,21 @@
+{
+    "manifest_version": 2,
+
+    "name": "ClassicDB – Wowhead Button",
+    "description": "Replace useless buttons on ClassicDB with an actually useful one!",
+    "version": "0.1.0",
+
+    "content_scripts": [
+        {
+            "css": [
+                "wowhead.css"
+            ],
+            "js": [
+                "wowhead.js"
+            ],
+            "matches": [
+                "https://classicdb.ch/?item=*"
+            ]
+        }
+    ]
+}
